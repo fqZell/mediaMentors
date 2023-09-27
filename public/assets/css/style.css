@@ -1,0 +1,99 @@
+/*default css*/
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+@font-face {
+    font-family: BebasNeueRegular, sans-serif;
+    src: url("assets/fonts/BebasNeueRegular.ttf");
+}
+
+@font-face {
+    font-family: BebasNeueBold, sans-serif;
+    src: url("assets/fonts/BebasNeueBold.ttf");
+}
+
+body {
+    background-color: rgba(17, 17, 17, 0.95);
+}
+/*default css*/
+
+/*preview css*/
+.animation-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.5;
+    transition: opacity 0.5s ease-in-out;
+}
+
+/* Остальные стили для .preview оставьте без изменений */
+.preview {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    height: 100vh;
+}
+
+.preview img {
+    width: 176px;
+    height: 111px;
+}
+
+.preview h1 {
+    font-family: BebasNeueBold, sans-serif;
+    font-size: 48px;
+    color: #ED1D26;
+}
+
+.preview h3 {
+    font-family: BebasNeueBold, sans-serif;
+    font-size: 36px;
+    color: #ED1D26;
+}
+
+.preview .scroll {
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+    transform: rotate(-90deg);
+}
+
+.preview .scroll .line {
+    width: 100px;
+    border: 1px solid #ED1D26;
+}
+
+.preview .scroll p {
+    color: #FFF;
+    font-family: BebasNeueRegular, sans-serif;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
+/*preview css*/
+
+/*header css*/
+
+
+
+/*header css*/
