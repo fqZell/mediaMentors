@@ -22,7 +22,17 @@ html {
 }
 
 body {
-    background-color: rgba(17, 17, 17, 0.95);
+    background-color: #111111;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.container {
+    max-width: 1520px;
+    margin: 0 auto;
 }
 /*default css*/
 
@@ -94,6 +104,76 @@ body {
 
 /*header css*/
 
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #111111;
+    transition: background-color 0.3s;
+}
 
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 30px;
+
+    background-color: #111111;
+}
+
+.header .logo {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+}
+
+.header .logo img {
+    width: 50px;
+    height: 50px;
+}
+
+.header .logo-title h1 {
+    font-family: BebasNeueBold, sans-serif;
+    font-size: 28px;
+    color: #ED1D26;
+}
+
+.header .logo-title p {
+    font-family: BebasNeueBold, sans-serif;
+    font-size: 16px;
+    color: #ED1D26;
+}
+
+.header nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+    color: #FFF;
+    font-family: BebasNeueRegular, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; /* 250% */
+    text-transform: uppercase;
+}
 
 /*header css*/
+
+/*banner css*/
+.banner {
+    width: 100%;
+    height: 100%;
+
+    margin-top: 85px;
+}
+/*banner css*/

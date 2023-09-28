@@ -4,6 +4,8 @@
 
 @section('content')
 
-{{--    @include('components.preview')--}}
+     @include('components.preview')
+
+    @include('components.banner')
 
 @endsection

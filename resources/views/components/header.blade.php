@@ -2,24 +2,31 @@
 
     <div class="container">
 
-        <div class="logo">
+        <div class="header">
 
-            <img src="{{ asset('assets/img/logo/logo.svg') }}" alt="logo-header">
+            <div class="logo">
 
-            <div class="logo-title">
+                <img src="{{ asset('assets/img/logo/logo.svg') }}" alt="logo-header">
 
-                <h1>MEDIA MENTORS</h1>
-                <p>PRODUCTION</p>
+                <div class="logo-title">
+
+                    <h1>MEDIA MENTORS</h1>
+                    <p>PRODUCTION</p>
+
+                </div>
 
             </div>
 
+            <nav>
+
+                <a href="#">заказать съёмку</a>
+                <a href="#">услуги</a>
+                <a href="#">контакты</a>
+                <a href="#">презентация</a>
+
+            </nav>
+
         </div>
-
-        <nav>
-
-
-
-        </nav>
 
     </div>
 
